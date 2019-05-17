@@ -1,0 +1,3 @@
+C:/Users/piero/Downloads/templates-Piero16301/Quicksort/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/piero/Downloads/templates-Piero16301/Quicksort/cmake-build-debug/CMakeFiles/Quicksort.dir
+C:/Users/piero/Downloads/templates-Piero16301/Quicksort/cmake-build-debug/CMakeFiles/rebuild_cache.dir
