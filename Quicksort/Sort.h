@@ -32,10 +32,12 @@ void QuickSort (T1 (&array)[6], int menor, int mayor) {
 }
 
 template <class T1>
-void impimirLista(T1 (&array)[6], int size) {
+std::string impimirLista(T1 (&array)[6], int size) {
+    std::string lista;
     for (int i = 0; i < size; i++) {
-        std::cout << array[i] << ' ';
+        lista = lista + std::to_string(array[i]) + ' ';
     }
+    return lista;
 }
 
 #endif //QUICKSORT_SORT_H
