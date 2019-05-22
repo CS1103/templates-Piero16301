@@ -1,10 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Quicksort.dir/main.cpp.obj"
-  "CMakeFiles/Quicksort.dir/TDD.cpp.obj"
+  "CMakeFiles/Quicksort.dir/main.cpp.o"
   "Quicksort.pdb"
-  "Quicksort.exe"
-  "Quicksort.exe.manifest"
-  "libQuicksort.dll.a"
+  "Quicksort"
 )
 
 # Per-language clean rules from dependency scanning.

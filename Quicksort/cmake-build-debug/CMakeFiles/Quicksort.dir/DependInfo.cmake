@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/piero/Downloads/templates-Piero16301/Quicksort/TDD.cpp" "C:/Users/piero/Downloads/templates-Piero16301/Quicksort/cmake-build-debug/CMakeFiles/Quicksort.dir/TDD.cpp.obj"
-  "C:/Users/piero/Downloads/templates-Piero16301/Quicksort/main.cpp" "C:/Users/piero/Downloads/templates-Piero16301/Quicksort/cmake-build-debug/CMakeFiles/Quicksort.dir/main.cpp.obj"
+  "/home/piero/Documents/templates-Piero16301/Quicksort/main.cpp" "/home/piero/Documents/templates-Piero16301/Quicksort/cmake-build-debug/CMakeFiles/Quicksort.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

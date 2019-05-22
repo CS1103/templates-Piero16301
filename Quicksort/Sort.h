@@ -23,11 +23,11 @@ int particion (T1 (&array)[6], int menor, int mayor) {
 }
 
 template <class T1>
-void QuickSort (T1 (&array)[6], int menor, int mayor) {
+void quickSort (T1 (&array)[6], int menor, int mayor) {
     if (menor < mayor) {
         int pivote = particion(array, menor, mayor);
-        QuickSort(array, menor, pivote - 1);
-        QuickSort(array, pivote + 1, mayor);
+        quickSort(array, menor, pivote - 1);
+        quickSort(array, pivote + 1, mayor);
     }
 }
 
@@ -35,7 +35,7 @@ template <class T1>
 std::string impimirLista(T1 (&array)[6], int size) {
     std::string lista;
     for (int i = 0; i < size; i++) {
-        lista = lista + std::to_string(array[i]) + ' ';
+        lista = lista + std::to_string(array[i]) + ( (i == size - 1) ? "" : " ");
     }
     return lista;
 }

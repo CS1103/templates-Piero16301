@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2019.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\piero\Downloads\templates-Piero16301\Quicksort
+/opt/clion-2019.1.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/piero/Documents/templates-Piero16301/Quicksort
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/piero/Downloads/templates-Piero16301/Quicksort/cmake-build-debug
+-- Build files have been written to: /home/piero/Documents/templates-Piero16301/Quicksort/cmake-build-debug
