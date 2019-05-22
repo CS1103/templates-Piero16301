@@ -87,6 +87,9 @@
 		<Unit filename="/home/piero/Documents/templates-Piero16301/Quicksort/Sort.h">
 			<Option target="Quicksort"/>
 		</Unit>
+		<Unit filename="/home/piero/Documents/templates-Piero16301/Quicksort/TDD.cpp">
+			<Option target="Quicksort"/>
+		</Unit>
 		<Unit filename="/home/piero/Documents/templates-Piero16301/Quicksort/main.cpp">
 			<Option target="Quicksort"/>
 		</Unit>

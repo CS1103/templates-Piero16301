@@ -123,6 +123,33 @@ Quicksort/fast:
 	$(MAKE) -f CMakeFiles/Quicksort.dir/build.make CMakeFiles/Quicksort.dir/build
 .PHONY : Quicksort/fast
 
+TDD.o: TDD.cpp.o
+
+.PHONY : TDD.o
+
+# target to build an object file
+TDD.cpp.o:
+	$(MAKE) -f CMakeFiles/Quicksort.dir/build.make CMakeFiles/Quicksort.dir/TDD.cpp.o
+.PHONY : TDD.cpp.o
+
+TDD.i: TDD.cpp.i
+
+.PHONY : TDD.i
+
+# target to preprocess a source file
+TDD.cpp.i:
+	$(MAKE) -f CMakeFiles/Quicksort.dir/build.make CMakeFiles/Quicksort.dir/TDD.cpp.i
+.PHONY : TDD.cpp.i
+
+TDD.s: TDD.cpp.s
+
+.PHONY : TDD.s
+
+# target to generate assembly for a file
+TDD.cpp.s:
+	$(MAKE) -f CMakeFiles/Quicksort.dir/build.make CMakeFiles/Quicksort.dir/TDD.cpp.s
+.PHONY : TDD.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Quicksort"
 	@echo "... edit_cache"
+	@echo "... TDD.o"
+	@echo "... TDD.i"
+	@echo "... TDD.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
